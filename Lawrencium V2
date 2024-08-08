@@ -1,0 +1,521 @@
+
+local H = Instance.new("Hint", game.Workspace) 
+H.Parent = game.Workspace
+H.Text = ("Download RC7 Android at rc7download.carrd.co")
+wait(5)
+H:Destroy()
+
+-- Gui to Lua
+-- Version: 3.2
+local isGuiVisible = true
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ExecutorGui = Instance.new("ImageButton")
+local HomeGui = Instance.new("ImageButton")
+local ScriptsGui = Instance.new("ImageButton")
+local Home = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local scripts = Instance.new("Frame")
+local b = Instance.new("ScrollingFrame")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local search = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+local Executor = Instance.new("Frame")
+local a = Instance.new("TextBox")
+local UICorner_15 = Instance.new("UICorner")
+local execute = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local clear = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local testbutton = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+testbutton.Name = "test button"
+testbutton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+testbutton.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = testbutton
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.928930819, 0, 0.322055131, 0)
+ImageButton.Size = UDim2.new(0, 81, 0, 79)
+ImageButton.Image = "http://www.roblox.com/asset/?id=18836598722"
+
+UICorner.Parent = ImageButton
+
+-- Scripts:
+
+local function PZAGNJ_fake_script() -- testbutton.LocalScript 
+	local script = Instance.new('LocalScript', testbutton)
+
+	ImageButton.Parent = ScreenGui
+
+	ImageButton.MouseButton1Click:Connect(function()
+		isGuiVisible = not isGuiVisible
+
+		if isGuiVisible then
+			Frame.Visible = true
+			Executor.Visible = true
+			scripts.Visible = true
+		else
+			Frame.Visible = false
+			Executor.Visible = false
+			scripts.Visible = false
+		end
+	end)
+
+end
+coroutine.wrap(PZAGNJ_fake_script)()
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local testbutton = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+testbutton.Name = "test button"
+testbutton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+testbutton.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = testbutton
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.928930819, 0, 0.322055131, 0)
+ImageButton.Size = UDim2.new(0, 81, 0, 79)
+ImageButton.Image = "http://www.roblox.com/asset/?id=18836598722"
+
+UICorner.Parent = ImageButton
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.367924541, 0, 0.25939849, 0)
+Frame.Size = UDim2.new(0, 558, 0, 462)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(47, 0, 71)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0302266218, 0, 0.0217983685, 0)
+Frame_2.Size = UDim2.new(0, 518, 0, 47)
+
+UICorner_2.Parent = Frame_2
+
+ExecutorGui.Name = "ExecutorGui"
+ExecutorGui.Parent = Frame_2
+ExecutorGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorGui.BackgroundTransparency = 1.000
+ExecutorGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorGui.BorderSizePixel = 0
+ExecutorGui.Position = UDim2.new(0.439678282, 0, 0.0851063803, 0)
+ExecutorGui.Size = UDim2.new(0, 45, 0, 39)
+ExecutorGui.Image = "http://www.roblox.com/asset/?id=13917098514"
+ExecutorGui.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorGui.MouseButton1Down:connect(function()
+	Home.Visible = false
+	Executor.Visible = true
+	scripts.Visible = false
+end)
+
+HomeGui.Name = "HomeGui"
+HomeGui.Parent = Frame_2
+HomeGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeGui.BackgroundTransparency = 1.000
+HomeGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeGui.BorderSizePixel = 0
+HomeGui.Position = UDim2.new(0.075067021, 0, 0.0851063803, 0)
+HomeGui.Size = UDim2.new(0, 45, 0, 39)
+HomeGui.Image = "http://www.roblox.com/asset/?id=11254763826"
+HomeGui.ImageColor3 = Color3.fromRGB(0, 0, 0)
+HomeGui.MouseButton1Down:connect(function()
+	Home.Visible = true
+	Executor.Visible = false
+	scripts.Visible = false
+end)
+
+ScriptsGui.Name = "ScriptsGui"
+ScriptsGui.Parent = Frame_2
+ScriptsGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsGui.BackgroundTransparency = 1.000
+ScriptsGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsGui.BorderSizePixel = 0
+ScriptsGui.Position = UDim2.new(0.80428952, 0, 0.0851063803, 0)
+ScriptsGui.Size = UDim2.new(0, 45, 0, 39)
+ScriptsGui.Image = "http://www.roblox.com/asset/?id=2804603863"
+ScriptsGui.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsGui.MouseButton1Down:connect(function()
+	Home.Visible = false
+	Executor.Visible = false
+	scripts.Visible = true
+end)
+
+Home.Name = "Home"
+Home.Parent = Frame
+Home.Active = true
+Home.BackgroundColor3 = Color3.fromRGB(47, 0, 71)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0340501778, 0, 0.151515156, 0)
+Home.Size = UDim2.new(0, 518, 0, 373)
+Home.Visible = false
+Home.ZIndex = 4
+
+UICorner_3.Parent = Home
+
+TextLabel.Parent = Home
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.00965250935, 0, -0.0455764085, 0)
+TextLabel.Size = UDim2.new(0, 501, 0, 85)
+TextLabel.Font = Enum.Font.Fantasy
+TextLabel.Text = "Welcome to Lawrencium"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+ImageLabel.Parent = Home
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.287644774, 0, 0.319034845, 0)
+ImageLabel.Size = UDim2.new(0, 212, 0, 195)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_4.Parent = ImageLabel
+
+TextLabel_2.Parent = Home
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.050193049, 0, 0.147453085, 0)
+TextLabel_2.Size = UDim2.new(0, 467, 0, 52)
+TextLabel_2.Font = Enum.Font.Fantasy
+TextLabel_2.Text = " (user)"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = Home
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.887399435, 0)
+TextLabel_3.Size = UDim2.new(0, 475, 0, 27)
+TextLabel_3.Font = Enum.Font.Fantasy
+TextLabel_3.Text = "Thank you for using Lawrencium"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 10.000
+TextLabel_3.TextWrapped = true
+
+scripts.Name = "scripts"
+scripts.Parent = ScreenGui
+scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+scripts.BackgroundTransparency = 1.000
+scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scripts.BorderSizePixel = 0
+scripts.Position = UDim2.new(0.3798742, 0, 0.347117782, 0)
+scripts.Size = UDim2.new(0, 518, 0, 373)
+scripts.Visible = false
+
+b.Name = "b"
+b.Parent = scripts
+b.Active = true
+b.BackgroundColor3 = Color3.fromRGB(47, 0, 71)
+b.BorderColor3 = Color3.fromRGB(0, 0, 0)
+b.BorderSizePixel = 0
+b.Position = UDim2.new(0.000944513129, 0, 0.00463179918, 0)
+b.Size = UDim2.new(0, 518, 0, 373)
+b.ZIndex = 2
+
+UICorner_5.Parent = b
+
+TextButton.Parent = b
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0176270232, 0, 0.0897745341, 0)
+TextButton.Size = UDim2.new(0, 234, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Dex Explorer V2"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+end)
+
+UICorner_6.Parent = TextButton
+
+TextButton_2.Parent = b
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.0176270232, 0, 0.17459695, 0)
+TextButton_2.Size = UDim2.new(0, 234, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "OrzPanel v1.7"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/OrzScript/Orz-Panel-1.0/main/OrzPanel_v1.7_OBFUSCATED.txt",true))()
+end)
+
+UICorner_7.Parent = TextButton_2
+
+TextButton_3.Parent = b
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.0176270232, 0, 0.258323044, 0)
+TextButton_3.Size = UDim2.new(0, 234, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "print location"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()
+	print(game:GetService'Players'.LocalPlayer.Character.HumanoidRootPart.Position)
+end)
+
+UICorner_8.Parent = TextButton_3
+
+TextButton_4.Parent = b
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0176270232, 0, 0.333031714, 0)
+TextButton_4.Size = UDim2.new(0, 234, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Old Lawrencium"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/OrzScript/FrostWareScriptDevelopment/main/Lawrencium_Obfuscated.txt",true))()
+end)
+
+UICorner_9.Parent = TextButton_4
+
+TextButton_5.Parent = b
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.50218302, 0, 0.0883422494, 0)
+TextButton_5.Size = UDim2.new(0, 234, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Infinite Yield"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_10.Parent = TextButton_5
+
+TextButton_6.Parent = b
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.50218302, 0, 0.174938455, 0)
+TextButton_6.Size = UDim2.new(0, 234, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "RC7"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))()
+end)
+
+UICorner_11.Parent = TextButton_6
+
+TextButton_7.Parent = b
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.50218302, 0, 0.258048385, 0)
+TextButton_7.Size = UDim2.new(0, 234, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "FrostWare Hub"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SPDMJakey/Frostwarehub/main/Protected_4539293767760542.lua", true))()
+end)
+
+UICorner_12.Parent = TextButton_7
+
+TextButton_8.Parent = b
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(0.50218302, 0, 0.331692517, 0)
+TextButton_8.Size = UDim2.new(0, 234, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "Doge thingy"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+TextButton_8.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TgrXBgK1"))()
+end)
+
+UICorner_13.Parent = TextButton_8
+
+search.Name = "search"
+search.Parent = b
+search.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+search.BorderColor3 = Color3.fromRGB(0, 0, 0)
+search.BorderSizePixel = 0
+search.Position = UDim2.new(0.0675675645, 0, 0.0179731362, 0)
+search.Size = UDim2.new(0, 423, 0, 40)
+search.Font = Enum.Font.SourceSans
+search.PlaceholderText = "search for a script see if we have it.."
+search.Text = ""
+search.TextColor3 = Color3.fromRGB(255, 255, 255)
+search.TextSize = 14.000
+
+UICorner_14.Parent = search
+
+Executor.Name = "Executor"
+Executor.Parent = ScreenGui
+Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executor.BackgroundTransparency = 1.000
+Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Executor.BorderSizePixel = 0
+Executor.Position = UDim2.new(0.3798742, 0, 0.347117782, 0)
+Executor.Size = UDim2.new(0, 518, 0, 373)
+
+a.Name = "a"
+a.Parent = Executor
+a.BackgroundColor3 = Color3.fromRGB(47, 0, 71)
+a.BorderColor3 = Color3.fromRGB(0, 0, 0)
+a.BorderSizePixel = 0
+a.Position = UDim2.new(-0.0041447347, 0, 0.0563292317, 0)
+a.Size = UDim2.new(0, 518, 0, 279)
+a.ZIndex = 3
+a.Font = Enum.Font.SourceSans
+a.PlaceholderText = "print(\"lawrencium on top\") -- POWERED BY ORZ X ( ORZSCRIPT )"
+a.Text = ""
+a.TextColor3 = Color3.fromRGB(255, 255, 255)
+a.TextSize = 14.000
+
+UICorner_15.Parent = a
+
+execute.Name = "execute"
+execute.Parent = a
+execute.BackgroundColor3 = Color3.fromRGB(47, 0, 71)
+execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute.BorderSizePixel = 0
+execute.Position = UDim2.new(0, 0, 1.07526886, 0)
+execute.Size = UDim2.new(0, 176, 0, 50)
+execute.Font = Enum.Font.SourceSans
+execute.Text = "Execute"
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextScaled = true
+execute.TextSize = 14.000
+execute.TextWrapped = true
+execute.MouseButton1Down:connect(function()
+	loadstring(a.Text)()
+end)
+
+UICorner_16.Parent = execute
+
+clear.Name = "clear"
+clear.Parent = a
+clear.BackgroundColor3 = Color3.fromRGB(47, 0, 71)
+clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderSizePixel = 0
+clear.Position = UDim2.new(0.66023165, 0, 1.07526886, 0)
+clear.Size = UDim2.new(0, 176, 0, 50)
+clear.Font = Enum.Font.SourceSans
+clear.Text = "Clear"
+clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+clear.TextScaled = true
+clear.TextSize = 14.000
+clear.TextWrapped = true
+
+UICorner_17.Parent = clear
+
+-- Scripts:
+local function WHZNQV_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local imagelabel = script.Parent
+	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
+end
+coroutine.wrap(WHZNQV_fake_script)()
+local function QBNV_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	local player = game.Players.LocalPlayer
+	local textLabel = script.Parent 
+
+	textLabel.Text = player.DisplayName
+end
+coroutine.wrap(QBNV_fake_script)()
+
+local function OFISYC_fake_script() -- clear.LocalScript 
+	local script = Instance.new('LocalScript', clear)
+
+	local TextBox = script.Parent.Parent
+	local ClearButton = script.Parent
+	ClearButton.MouseButton1Click:Connect(function()
+		TextBox.Text = "Powered By Orz X ( OrzScript )"
+	end)
+
+end
